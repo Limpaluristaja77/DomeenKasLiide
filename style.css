@@ -13,7 +13,7 @@ body {
 
 .row {
     background-color: rgb(237, 237, 237);
-    scale: 80%;
+    scale: 70%;
 }
 
 .bg-lightgreen {
@@ -29,6 +29,8 @@ body {
 .search-bar {
     padding: 10px;
     background-color: rgb(237, 237, 237);
+    width: auto;
+    
 }
 
 .search-bar button {
@@ -36,7 +38,7 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #76DE50;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
@@ -50,8 +52,10 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #76DE50;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .domain-options button{
@@ -59,7 +63,7 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #76DE50;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
@@ -67,10 +71,57 @@ body {
     background-color: rgb(237, 237, 237);
     padding: 15px;
     margin-top: 50px;
+    width: 50%;
+    
+
 }
 
 .domain-option {
     background-color: white;
     padding: 10px;
     margin: 10px;
+
+}
+
+.search-bar-text {
+
+    height: 40px;
+}
+
+
+
+.info-container {
+    background-color: rgb(237, 237, 237);
+    height: auto;
+    width: 300px;
+
+
+}
+
+.payment-container {
+    background-color: rgb(246 246 246);
+    height: 300px;
+    width: 300px;
+}
+
+
+.custom-text {
+    border: none;
+    margin: 15px;
+    width: auto;
+}
+
+.button-back {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(205 205 205);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.checkbox {
+    margin-right: 30px;
 }
