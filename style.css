@@ -29,19 +29,7 @@ body {
 .search-bar {
     padding: 10px;
     background-color: rgb(237, 237, 237);
-    width: auto;
-    
 }
-
-.search-bar button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #76DE50;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}
-
 
 .error {
     color: rgb(206, 66, 66);
@@ -58,14 +46,6 @@ body {
     display: inline-block;
 }
 
-.domain-options button{
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #76DE50;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}
 
 .domain-options {
     background-color: rgb(237, 237, 237);
@@ -77,16 +57,18 @@ body {
 }
 
 .domain-option {
-    background-color: white;
+
     padding: 10px;
     margin: 10px;
 
 }
 
-.search-bar-text {
+.search-bar-text, .select-options {
 
     height: 40px;
+    border: none;
 }
+
 
 
 
@@ -124,4 +106,11 @@ body {
 
 .checkbox {
     margin-right: 30px;
+}
+
+.span {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+
 }
