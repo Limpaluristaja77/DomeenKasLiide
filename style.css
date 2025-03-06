@@ -4,6 +4,7 @@ body {
     justify-content: center;
     padding: 30px;
     margin: 50px;
+    display: grid;
 }
  .container-fluid {
     margin: auto;
@@ -44,27 +45,21 @@ body {
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
+    margin-left:10px;
 }
 
 
 .domain-options {
     background-color: rgb(237, 237, 237);
-    padding: 15px;
-    margin-top: 50px;
-    width: 50%;
-    
-
-}
-
-.domain-option {
-
     padding: 10px;
-    margin: 10px;
-
+    margin-top: 50px;
+    justify-self: center;
 }
 
-.search-bar-text, .select-options {
 
+.search-bar-text, .select-options, .domain-option{
+    padding: 10px;
+    margin: 15px;
     height: 40px;
     border: none;
 }
@@ -101,7 +96,8 @@ body {
     color: rgb(0, 0, 0);
     cursor: pointer;
     text-decoration: none;
-    display: inline-block;
+    justify-self: left;
+    margin-top: 30px;
 }
 
 .checkbox {
@@ -112,5 +108,22 @@ body {
     background-color: white;
     margin: 10px;
     padding: 10px;
+    width: 400px;
 
+}
+
+.select-options {
+    width: 200px;
+}
+
+.button-forward {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #76DE50;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;    
+    justify-self: right;
+    margin-top: 50px;
 }
