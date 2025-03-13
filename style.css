@@ -59,7 +59,7 @@ body {
 
 .search-bar-text, .select-options, .domain-option{
     padding: 10px;
-    margin: 15px;
+    margin: 10px;
     height: 40px;
     border: none;
 }
@@ -79,6 +79,7 @@ body {
     background-color: rgb(246 246 246);
     height: 300px;
     width: 300px;
+
 }
 
 
@@ -126,4 +127,22 @@ body {
     text-decoration: none;    
     justify-self: right;
     margin-top: 50px;
+}
+
+.payment-info-container {
+    background-color: rgb(217, 217, 217);
+    padding: 15px;
+    width: 1000px;
+    height: auto;
+}
+
+.payment-info {
+    background-color: rgb(247, 247, 247);
+    
+
+}
+
+.terms-and-conditions {
+    background-color: #76DE50;
+    padding: 10px;
 }
